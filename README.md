@@ -1,1 +1,1 @@
-"# Quantum computing projects" 
+# Quantum computing projects

@@ -12,7 +12,7 @@ def statevector_to_bloch(statevector):
 	beta = statevector.data[1]
 
 	x = 2 * np.real(np.conj(alpha)*beta)
-	y = 2 * np.imag()np.conj(alpha)*beta)
+	y = 2 * np.imag(np.conj(alpha)*beta)
 	z = np.abs(alpha)**2 - np.abs(beta)**2
 
 	return [x,y,z]
